@@ -13,9 +13,6 @@ public class ImageRecognition : MonoBehaviour
     [SerializeField]
     private GameObject[] objectsToInstantied;
 
-    [SerializeField]
-    private Vector3[] ObjectPositions;
-
     private List<GameObject> arObjects = new List<GameObject>();
 
     public Text imgpos;
@@ -81,9 +78,14 @@ public class ImageRecognition : MonoBehaviour
         imgpos.text = trackedImage.transform.position.ToString();
         for(int i=0; i< arObjects.Count; i++ )
         {
-            arObjects[i].SetActive(true);
-            arObjects[i].transform.position = trackedImage.transform.position;
-            arObjects[i].transform.Translate(ObjectPositions[i]);
+            Item item = arObjects[i].GetComponent<Item>();
+            if (item.enabled)
+            {
+                arObjects[i].SetActive(true);
+                arObjects[i].transform.position = trackedImage.transform.position;
+                arObjects[i].transform.Translate(item.position[0]);
+            }
+            
         }
     }
 }
