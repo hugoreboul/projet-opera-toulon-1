@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 8109301820119417518}
   - component: {fileID: 291911250298335639}
   - component: {fileID: 7740031573280051844}
+  - component: {fileID: -7571453894939038472}
+  - component: {fileID: -8954083389713525318}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,3 +97,31 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7571453894939038472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391405842529935421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a069e8a9b98ce0c4abe6f314066a8723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryPosition: 2
+--- !u!114 &-8954083389713525318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391405842529935421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f53444e605287459b7849381ac381b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position:
+  - {x: 0.1, y: 0, z: 0}
+  enabled: 1
