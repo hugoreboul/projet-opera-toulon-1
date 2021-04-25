@@ -77,7 +77,23 @@ public class LiarScriptManager : MonoBehaviour
                 }
             }
         }
+    }
 
+    public void valideChoice()
+    {        
+        // celui qui ne ments pas
+        if (index == 4)
+        {
+            StopCoroutine(currentCoroutine);
+            textDisplay.text = "";
+            textDisplay.text = "C'est gagné ! \nLe suspect Vert ne ment pas";
+        }
+        else if(index >0 && index < 6)
+        {
+            StopCoroutine(currentCoroutine);
+            textDisplay.text = "";
+            textDisplay.text = "Perdu ! \nLe suspect selectionné ment !";
+        }
     }
     
 }
