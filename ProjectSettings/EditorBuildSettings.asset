@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/FeatureLiarGame.unity
+    guid: fffa481327ba7c34495a57afca8d022b
+  - enabled: 0
     path: Assets/Scenes/FeatureTrackingImage.unity
     guid: 77963899699220444b8fb94a6da9ecae
   - enabled: 0
