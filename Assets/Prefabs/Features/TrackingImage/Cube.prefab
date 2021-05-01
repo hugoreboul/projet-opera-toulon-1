@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 58202641214683494}
   - component: {fileID: 9012064642068192045}
   - component: {fileID: 7473554378816772756}
+  - component: {fileID: 1996766453109700104}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Collectable
@@ -125,3 +126,16 @@ MonoBehaviour:
   position:
   - {x: 0, y: 0.1, z: 0}
   enabled: 1
+--- !u!65 &1996766453109700104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6398784373223685351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
