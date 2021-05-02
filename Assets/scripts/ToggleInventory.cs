@@ -8,6 +8,7 @@ public class ToggleInventory : MonoBehaviour
 
     public bool enable = false;
     public RectTransform inventoryPanel;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +27,6 @@ public class ToggleInventory : MonoBehaviour
     {
         enable = !enable;
         inventoryPanel.gameObject.SetActive(enable);
+        audioSource.Play();
     }
 }
