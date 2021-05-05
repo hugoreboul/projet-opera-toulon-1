@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Features/MiniGame/beethoven.unity
     guid: b39ca62ce65d6ec4bbc78445af16d1b6
   - enabled: 1
-    path: Assets/Scenes/Features/MiniGame/test.unity
+    path: Assets/Scenes/Features/MiniGame/beethoven.unity
     guid: 259b31b311943ad45aacce415d1489c5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 721cd5a5a54f3114490b0ea5deb6018f, type: 2}
