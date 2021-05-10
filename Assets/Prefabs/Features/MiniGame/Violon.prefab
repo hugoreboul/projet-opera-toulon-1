@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 8791275005098270107}
   - component: {fileID: 3203624771135490133}
   - component: {fileID: 54603204524729109}
-  - component: {fileID: 1518172418737160522}
-  - component: {fileID: 7618211134266006129}
   m_Layer: 0
   m_Name: Violon
   m_TagString: Collectable
@@ -30,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3403264710265599126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,31 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1518172418737160522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3403264710265599126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f53444e605287459b7849381ac381b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position:
-  - {x: 0, y: 0.1, z: 0}
-  enabled: 1
---- !u!114 &7618211134266006129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3403264710265599126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a069e8a9b98ce0c4abe6f314066a8723, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryPosition: 2
